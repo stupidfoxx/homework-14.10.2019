@@ -1,0 +1,148 @@
+body {
+  line-height: 24px;
+  font-size: 13px;
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+  background: url(./../images/Pattern_Light.png) repeat center;
+  background-size: contain;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+main.about_me {
+	width: 1140px;
+	height: 515px;
+	margin: 0 auto;
+	background: #fff;
+	margin-top: 60px;
+	padding: 40px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+}
+
+section.photo_button {
+	width: 322px;
+	height: 100%;
+	display: block;
+	margin-right: 80px;
+}
+
+section.information {
+	width: 818px;
+	height: 100%;
+	display: block;
+}
+
+
+.download {
+	margin-top: 50px;
+    display: block;
+    background: #fec608;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 20px;
+    color: #222;
+    font-size: 18px;
+    font-family: "Roboto", cursive;
+	max-width: 322px;
+	cursor: pointer;
+}
+
+.card h3 {
+	font-size: 24px;
+    color: #333333;
+    text-transform: uppercase;
+	font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.card h3 span{
+    color: #fec608;
+}
+
+.card h4 {
+	font-size: 18px;
+    font-family: "Roboto", cursive;
+    font-weight: bold;
+    color: #666666;
+    padding-bottom: 15px;
+}
+
+.card p {
+	font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.my_information {
+	padding: 15px 0px 25px 0px;
+	display: flex;
+	justify-content: start;
+}
+
+
+.my_information ul li a {
+  font-size: 13px;
+  line-height: 26px;
+  color: #333333;
+}
+
+ul.bold {
+	font-weight: bold;
+	margin-right: 50px;
+}
+
+.social_icon {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: row;
+}
+
+.social_icon i {
+	margin-right: 25px;
+	font-size: 36px;
+	color: grey;
+}
+
+i.fa-facebook:hover {
+	color: rgb(85,146,181);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+i.fa-instagram:hover {
+	color: rgb(255,97,80);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+i.fa-skype:hover {
+	color: rgb(71,202,255);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+
